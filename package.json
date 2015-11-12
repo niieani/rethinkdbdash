@@ -1,6 +1,6 @@
 {
-  "name": "rethinkdbdash",
-  "version": "2.1.17",
+  "name": "rethinkdbdash-websocket-client",
+  "version": "2.1.17.0",
   "description": "A Node.js driver for RethinkDB with promises and a connection pool",
   "main": "lib/index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/neumino/rethinkdbdash"
+    "url": "git://github.com/niieani/rethinkdbdash-websocket-client"
   },
   "keywords": [
     "rethinkdb",
@@ -22,10 +22,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/neumino/rethinkdbdash/issues"
+    "url": "https://github.com/niieani/rethinkdbdash-websocket-client/issues"
   },
-  "dependencies":{
-    "bluebird": ">= 3.0.1"
+  "dependencies": {
+    "blob-to-buffer": "^1.2.3",
+    "bluebird": ">= 3.0.1",
+    "eventemitter2": "^0.4.14"
   },
   "devDependencies": {
     "mocha": ">= 1.20.0",
