@@ -10,6 +10,10 @@
     "test": "mocha --check-leaks -t 20000",
     "browserify": "node browserify.js"
   },
+  "exclude": [
+    ".git/**",
+    ".vs/**"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/niieani/rethinkdbdash-websocket-client"
